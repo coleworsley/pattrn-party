@@ -6,9 +6,36 @@
     <link rel="stylesheet" href="./styles.css">
   </head>
   <body>
-    <main>
-      sample text
-    </main>
+  <header class="header">
+    <h1 class="header__title">Pattrn <span class="header__span">Party</span></h1>
+    <h2 class="header__username">Cole Worsley</h2>
+  </header>
+  <main class="main">
+    <section class="section">
+      <header class="section__header">
+        <h3 class="section__title">Accordian Tabs</h3>
+        <hr class="section__line"/>
+      </header>
+      <div class="accordian">
+        <nav class="accordian__tabs">
+          <ul class="tabs">
+            <li class="tabs__tab" id="tabs--active">Tab 1</li>
+            <li class="tabs__tab">Tab 2</li>
+            <li class="tabs__tab">Tab 3</li>
+            <li class="tabs__tab">Tab 4</li>
+          </ul>
+        </nav>
+        <div class="accordian__container">
+          <img src="" alt="" class"accordian__image">
+          <div class="accordian__content-box">
+            <h3 class="accoridian__title">Lorem ipsum dolor sit amet</h3>
+            <p class="accordian__content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+        </div>
+      </div>
+      <button class="view-btn">View Code</button>
+    </section>
+  </main>
   </body>
   <script src="./main.js" charset="utf-8"></script>
 </html>
