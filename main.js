@@ -18,27 +18,27 @@ const ipsums = [
   }
 ];
 
-const updateAccordian = (e) => {
-  $('.tabs__tab').removeAttr('id');
-
-  $(e.target).attr('id', 'tabs--active');
-
-  accordianText();
-};
-
-const accordianText = () => {
-  const index =  $('#tabs--active').val();
-  const info = ipsums[index];
-
-  $('.accordian__content-box').html(
-    `
-      <h3 class="accordian__title">${info.title}</h3>
-      <p class="accordian__content">${info.content}</p>
-    `
-  );
-}
-
-// on page load
-accordianText();
-
-$('.tabs__tab').on('click', updateAccordian);
+// const updateAccordian = (e) => {
+//   $('.tabs__tab').removeAttr('id');
+//
+//   $(e.target).attr('id', 'tabs--active');
+//
+//   accordianText();
+// };
+//
+// const accordianText = () => {
+//   const index =  $('#tabs--active').val();
+//   const info = ipsums[index];
+//
+//   $('.accordian__content-box').html(
+//     `
+//       <h3 class="accordian__title">${info.title}</h3>
+//       <p class="accordian__content">${info.content}</p>
+//     `
+//   );
+// }
+//
+// // on page load
+// accordianText();
+//
+// $('.tabs__tab').on('click', updateAccordian);
