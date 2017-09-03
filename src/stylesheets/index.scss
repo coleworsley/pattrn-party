@@ -1,0 +1,8 @@
+@import "accordian.scss";
+@import "styles.scss";
+
+.accordian {
+  & .accordian__tabs {
+    background-color: blue;
+  }
+}
