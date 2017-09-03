@@ -1,0 +1,20 @@
+$highlight: #34D1D1;
+
+$callToAction: #2F2235;
+$callToActionLight: #3F3244;
+$callToActionText: #FFF;
+
+$buttonColor: #F2F2F2;
+$buttonHover: #666666;
+
+$headerColor: #D1D2D3;
+
+$defaultText: #000;
+
+$fontStyle: sans-serif;
+@mixin boldText() {
+  font-weight: 600;
+}
+@mixin regularText() {
+  font-weight: 300;
+}
