@@ -89,10 +89,6 @@ body {
     padding: 20px 40px;
   }
 
-  .view-accordian {
-    margin-top: 390px;
-  }
-
   .view-link {
     width: 50%;
     max-width: 250px;
@@ -115,5 +111,11 @@ body {
 
   .section__title {
     margin: 10px 40px 10px 0;
+  }
+}
+
+@media (min-width: 700px) {
+  .view-accordian {
+    margin-top: 390px;
   }
 }
