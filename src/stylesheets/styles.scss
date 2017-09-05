@@ -12,15 +12,16 @@ body {
 }
 
 .main {
-  padding: 20px 40px;
+  padding: 20px 10px;
 }
 
 .header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-direction: column;
   background-color: $callToActionLight;
-  padding: 20px 40px;
+  padding: 20px 10px;
 }
 
 .header__title {
@@ -36,13 +37,13 @@ body {
 }
 
 .header__username {
+  font-size: 18px;
   margin: 0;
   color: #FFF;
 }
 
 .header__line {
-  display: none;
-  width: 30%;
+  width: 25%;
   margin: 10px;
   border-width: 1px 0 0;
   border-color: $headerColor;
@@ -52,17 +53,19 @@ body {
 /* Section */
 .section__header {
   display: flex;
+  flex-direction: column;
   align-items: center;
+  margin-bottom: 40px;
 }
 
 .section__title {
-  font-weight: 300;
-  margin-right: 40px;
+  margin-bottom: 5px;
+  @include regularText();
 }
 
 .section__line {
   height: 1px;
-  flex-grow: 1;
+  width: 25%;
   border-width: 1px 0 0;
   border-color: $headerColor;
   border-style: solid;
@@ -71,12 +74,46 @@ body {
 .view-link {
   background-color: $callToActionLight;
   display: block;
-  margin: 40px auto;
+  margin: 40px 0;
   color: $callToActionText;
   font-weight: 300;
   text-decoration: none;
   padding: 10px;
-  width: 50%;
-  max-width: 250px;
+  width: 100%;
   text-align: center;
+}
+
+@media (min-width: 500px) {
+  .header,
+  .main {
+    padding: 20px 40px;
+  }
+
+  .view-accordian {
+    margin-top: 390px;
+  }
+
+  .view-link {
+    width: 50%;
+    max-width: 250px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .header,
+  .section__header {
+    flex-direction: row;
+  }
+
+  .header__line {
+    display: none;
+  }
+
+  .section__line {
+    flex: 1;
+  }
+
+  .section__title {
+    margin: 10px 40px 10px 0;
+  }
 }
