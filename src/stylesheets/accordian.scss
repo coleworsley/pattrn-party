@@ -28,6 +28,7 @@
   background-color: $buttonColor;
   border-bottom: 1px solid $headerColor;
   margin-bottom: -1px;
+  cursor: pointer;
 }
 
 .accordian__tab-title {
@@ -90,10 +91,6 @@
 
 
 @media (min-width: 700px) {
-  // .accordian {
-  //   padding: 10px;
-  // }
-
   .accordian__tabs {
     display: flex;
     flex-direction: row;
