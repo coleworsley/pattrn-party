@@ -1,7 +1,7 @@
 @import "variables.scss";
 
 .accordian {
-  max-width: 800px;
+  max-width: 1000px;
   margin: 0 auto;
 }
 
@@ -90,6 +90,10 @@
 
 
 @media (min-width: 700px) {
+  // .accordian {
+  //   padding: 10px;
+  // }
+
   .accordian__tabs {
     display: flex;
     flex-direction: row;
