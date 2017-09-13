@@ -5,6 +5,15 @@ const updateAccordian = (e) => {
   $tab.attr('id', 'tabs--active');
 };
 
+const handleDropdown = (e) => {
+  $('.nav-bar__dropdown').toggleClass('hide')
+};
 
-// on page load
+const handleViewSize = (e) => {
+  $('.hide').removeClass('hide');
+}
+
+
 $('.accordian__tab').on('click', updateAccordian);
+$('.nav-bar__menu-btn').on('click', handleDropdown);
+$(window).on('resize', handleViewSize);

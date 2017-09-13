@@ -131,14 +131,27 @@
           <hr class="section__line"/>
         </header>
 
-        <header class="nav-bar">
-          <button class="nav-bar__escape"></button>
-          <a class="nav-bar__link">Navigation Link 1</a>
-          <a class="nav-bar__link">Navigation Link 2</a>
-          <a class="nav-bar__link">Navigation Link 3</a>
-          <input class="nav-bar__search" type="search" />
+        <nav class="nav-bar">
+          <div class="nav-bar__menu">
+            <button class="nav-bar__escape">
+              <svg height="100" width="100" viewBox="0 0 100 100">
+                <circle cx="50" cy="50" r="45"/>
+                <line x1="18" y1="82" x2="82" y2="18"/>
+                <line x1="82" y1="82" x2="18" y2="18"/>
+              </svg>
+            </button>
+            <button class="nav-bar__menu-btn">MENU</button>
           </div>
-        </header>
+
+          <div class="nav-bar__dropdown">
+            <a class="nav-bar__link">Navigation Link 1</a>
+            <a class="nav-bar__link">Navigation Link 2</a>
+            <a class="nav-bar__link">Navigation Link 3</a>
+            <input class="nav-bar__search" type="search" placeholder="Search"/>
+          </div>
+        </nav>
+
+        <a class="view-link view-flexible" href="https://codepen.io/cworsley/pen/zdMLYb">View Code</a>
       </section>
     </main>
   </body>
