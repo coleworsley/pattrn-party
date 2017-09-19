@@ -11,8 +11,8 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "sass-watch": "sass --watch src/stylesheets/index.scss:public/stylesheets/index.css",
-    "start": "open public/index.html"
+    "sass-watch": "sass --watch src/stylesheets/index.scss:docs/stylesheets/index.css",
+    "start": "open public/docs.html"
   },
   "repository": {
     "type": "git",
