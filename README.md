@@ -4,9 +4,9 @@
 This was a recreation of a static comp provided below. The goal was to create a small responsive styleguide. This was my first project implementing a CSS preprocessor (SCSS) as well as implmenting BEM (Block Element Modifier) in my code. I found that BEM definitely simplifies some of the large complex logic that CSS code causes and allows for more readable code.
 
 
-[Original Project](http://frontend.turing.io/projects/pattrn-party.html)
+## [Original Project](http://frontend.turing.io/projects/pattrn-party.html)
 
-[Production Site](https://coleworsley.github.io/pattrn-party)
+## [Production Site](https://coleworsley.github.io/pattrn-party)
 
 ## Downloading and Installing Instructions
 #### Note these instructions are for mac install (unfortunately I don't have the steps for windows yet) 
